@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Tamu</title>
+    <link rel="stylesheet" href="bukutamustyle.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #387f39;">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="Beranda.html">BERANDA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Tentang.html">TENTANG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Galeri.html">GALERI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="BukuTamu.html">BUKU TAMU</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <br><br><br>
+
+    <form action="submit-bukutamu" method="post" align="center">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required><br><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+    
+        <label for="message">Pesan:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+    
+        <label for="rating">Rating:</label>
+        <select id="rating" name="rating">
+            <option value="1">1 Bintang</option>
+            <option value="2">2 Bintang</option>
+            <option value="3">3 Bintang</option>
+            <option value="4">4 Bintang</option>
+            <option value="5">5 Bintang</option>
+        </select><br><br>
+    
+        <button type="submit">Kirim</button>
+    </form>
+    <br><br><br><br><br><br>
+
+    <footer class="text-light py-4" style="background-color: #387f39;">
+        <div class="container text-center">
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+            <p>Fakultas Teknologi Inforamsi dan Komunikasi USM</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

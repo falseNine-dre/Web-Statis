@@ -1,0 +1,48 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1652116120971-b2cff4f70f75?);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.carousel-item{
+    height: 500px; 
+    object-fit: cover; 
+    object-position: center;
+}
+
+.konten{
+    border: 0px;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    text-align: justify; 
+    line-height: 1.8; 
+    margin: 20px 0; 
+    padding: 0 15px; 
+    font-size: 16px; 
+    font-family: Arial, sans-serif;
+}
+
+.sosial_media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    padding: 20px 0;
+}
+
+.sosial_media a {
+    color: #6c757d; 
+    font-size: 25px; 
+    transition: color 0.3s ease; 
+}
+
+.sosial_media a:hover {
+    color: skyblue; 
+}
